@@ -2,7 +2,7 @@ Node.js, Fastify, React.js nested comments application using Prisma ORM and Post
 
 Clone application and inside server directory run
 
-#npm i
+# npm i
 
 And same for client directory. 
 
@@ -10,23 +10,23 @@ Create Database named "comments" inside PgAdmin
 
 Upgrade DATABASE_URL according to your user, password and port inside server/.env
 
-#DATABASE_URL="postgresql://[user]:[password]@localhost:[port]/comments"
+# DATABASE_URL="postgresql://[user]:[password]@localhost:[port]/comments"
 
 Run next command for migrating PRISMA ORM inside server directory:
 
-#npx prisma migrate dev
+# npx prisma migrate dev
 
 Then run this command for database seed:
 
-#npx prisma db seed
+# npx prisma db seed
 
 Run next command for start server application:
 
-#npm run dev
+# npm run dev
 
 Then inside client directory run:
 
-#npm run start
+# npm run start
 
 You will get this tab with 2 posts:
 
